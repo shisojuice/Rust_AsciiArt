@@ -1,0 +1,17 @@
+{
+  "name": "rust_asciiart",
+  "collaborators": [
+    " <>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "rust_asciiart_bg.wasm",
+    "rust_asciiart.js",
+    "rust_asciiart.d.ts"
+  ],
+  "module": "rust_asciiart.js",
+  "types": "rust_asciiart.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

@@ -1,0 +1,15 @@
+body {  
+  font-family: monospace;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+#myCanvas {
+  touch-action: none;
+  display: block;
+  border: 1px solid #000;
+  background-image:
+    linear-gradient(to right, #ccc 1px, transparent 1px),
+    linear-gradient(to bottom, #ccc 1px, transparent 1px);
+  background-size: 16px 16px;
+}
