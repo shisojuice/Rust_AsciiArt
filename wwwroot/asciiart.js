@@ -1,4 +1,5 @@
 import init, { process_image } from './rust_asciiart.js';
+import { fabric } from 'https://cdn.jsdelivr.net/npm/fabric@5.3.0/+esm'    
 
 const canvas  = new fabric.Canvas("myCanvas");
   canvas.isDrawingMode = true;
